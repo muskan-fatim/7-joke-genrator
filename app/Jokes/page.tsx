@@ -2,7 +2,7 @@
 import { useState } from "react"
 export default function TellJoke() {
     let [value , setvalue] = useState(" ")
-    let jokes = [ "What did the policeman say to his hungry stomach? “Freeze. You're under a vest.”",
+    const jokes = [ "What did the policeman say to his hungry stomach? “Freeze. You're under a vest.”",
       " What did the left eye say to the right eye? Between us, something smells!",
       " What do you call a guy who's really loud? Mike.",
       "Why do birds fly south in the winter? It's faster than walking!",
